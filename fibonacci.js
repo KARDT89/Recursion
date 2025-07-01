@@ -10,11 +10,8 @@ function fibs(input) {
 }
 
 function fibsRec(input) {
-  if (input == 0) return [0];
-  if (input == 1) return [0, 1];
-  const result = fibsRec(input - 1);
-  return [...result, result[input - 1] + result[input - 2]];
+  
 }
 
-console.log(fibs(8));
+// console.log(fibs(8));
 console.log(fibsRec(8));
